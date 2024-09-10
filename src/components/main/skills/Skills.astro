@@ -6,14 +6,16 @@ import { getIconComponent } from "../../../icons/IconAll.astro";
 <section class="section-skill">
   <div class="linear-grandient-1"></div>
   <div class="container-skill">
-    <h2 class="title-skills" id="skills">Habilidades</h2>
+    <h2 class="title-skills" id="skills">HABILIDADES</h2>
     <ul class="ul-skill">
       {
-        skills.map(({ icon, title }) => {
+        skills.map(({ icon, img, title }) => {
           const IconComponent = getIconComponent(icon);
           return (
             <li class="li-skills">
               {IconComponent && <IconComponent />}
+              {img && <img src={img} alt={title} class="skill-img" />}
+
               <p class="p-skill">{title}</p>
             </li>
           );
@@ -48,6 +50,7 @@ import { getIconComponent } from "../../../icons/IconAll.astro";
     width: 100%;
     font-weight: 800;
     scroll-margin-top: 80px;
+    text-align: center;
   }
 
   .li-skills {
@@ -83,6 +86,13 @@ import { getIconComponent } from "../../../icons/IconAll.astro";
     width: 100%;
     overflow: hidden;
     grid-template-columns: repeat(8, 1fr);
+  }
+
+  
+  .skill-img {
+    width: 70px; /* Ajusta el tamaño según sea necesario */
+    height: 70px; /* Ajusta el tamaño según sea necesario */
+    margin-right: 0.9rem; /* Espacio entre el ícono/imagen y el texto */
   }
   @media (min-width: 300px) {
     .ul-skill {

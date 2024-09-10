@@ -22,19 +22,20 @@ const { technologies, title, img, description, link } = Astro.props;
   <p class="description-project">
     {description}
   </p>
-  <p class="title-technologies">tecnologías usadas</p>
+  <p class="title-technologies">Tecnologías usadas</p>
   <div class="container-technologies">
-    {
-      technologies.map(({ icon }) => {
-        const IconComponent = getIconComponent(icon);
-        return <i>{IconComponent && <IconComponent />}</i>;
-      })
-    }
+    {technologies.map(({ img, title }) => (
+      <div key={title} className="technology-item">
+        <img src={img} alt={title} loading="lazy" />
+        <p>{title}</p>
+      </div>
+    ))}
   </div>
   <div class="container-link-project">
-    <a href={link} target="_blank">Ver más</a>
+    <a href={link} target="_blank" rel="noopener noreferrer">Ver más</a>
   </div>
 </li>
+
 
 <style>
   .li-project {
@@ -132,10 +133,20 @@ const { technologies, title, img, description, link } = Astro.props;
     position: relative;
     display: flex;
     justify-content: start;
-    padding: 10px 10px;
-    column-gap: 20px;
+    padding: 20px 10px;
+    column-gap: 10px;
     flex-wrap: wrap;
     color: white;
+  }
+
+  .container-technologies img {
+
+    height: 50px;
+    width: 100%;
+
+ 
+    user-select: none;
+    pointer-events: none;
   }
   .container-link-project {
     position: relative;
@@ -153,3 +164,5 @@ const { technologies, title, img, description, link } = Astro.props;
     justify-content: space-between;
   }
 </style>
+
+

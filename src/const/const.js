@@ -1,19 +1,35 @@
+
+import phpLogo from './public/img/php.png';
+
+
 export const studies = [
   {
-    title: "Técnico en desarrollo de software",
-    corporation: "SENA - Montería (Córdoba) ",
-    date: "02/2019 – 12/2019",
+    title: "Técnico en Informaticfa",
+    corporation: "ETC Eliodoro Pineda - Barquisimeto (Venezuela) ",
+    date: "09/2003 – 07/2006",
   },
   {
-    title: "Desarrollador Front-end React Js",
-    corporation: "Alura Latam - Remoto",
-    date: "04/2023 – 09/2023",
+    title: "Ingeniero de Sistemas",
+    corporation: "Universidad Nacional Politecnica De La Fuerza Armada - Barquisimeto (Venezuela)",
+    date: "03/2009 – 07/2016",
   },
   {
-    title: "Curso profesional de React Js",
-    corporation: "Código facilito - Remoto",
-    date: "04/2023 – 04/2023",
+    title: "Curso profesional de Vue js y React Js",
+    corporation: "Udemy - Remoto",
+    date: "04/2019 – 07/2019",
   },
+  {
+    title: "Curso profesional de Django y Flask",
+    corporation: "Telecapp - Remoto",
+    date: "07/2019 – 04/2020",
+  },
+  {
+    title: "Curso profesional de Ruby on rails",
+    corporation: "Inforcap - Chile",
+    date: "02/2022 – 07/2022",
+  },
+
+
 ];
 
 export const IconKeys = {
@@ -38,6 +54,8 @@ export const IconKeys = {
   nodejs: "nodejs",
   mongodb: "mongodb",
   vite: "vite",
+  php: phpLogo,
+
   // here add more icon keys
 };
 
@@ -85,67 +103,96 @@ export const skills = [
   },
 
   {
-    title: "Redux Js",
-    icon: IconKeys.redux,
-  },
-  {
-    title: "Styled Components",
-    icon: IconKeys.styled,
-  },
-  {
     title: "Node Js",
     icon: IconKeys.nodejs,
   },
-  {
-    title: "TypeScript",
-    icon: IconKeys.typeScript,
-  },
-  {
-    title: "Radix UI",
-    icon: IconKeys.radix,
-  },
 
-  {
-    title: "React Query",
-    icon: IconKeys.reactQuery,
-  },
   {
     title: "Vite",
     icon: IconKeys.vite,
   },
-  {
-    title: "Zustand",
-    icon: IconKeys.zustand,
-  },
 
-  {
-    title: "Shadcn UI",
-    icon: IconKeys.shadcn,
-  },
   {
     title: "Mongo Db",
     icon: IconKeys.mongodb,
+  },
+  {
+    title: "",
+    img: "../../../img/php.png", 
+  },
+  {
+    title: "",
+    img: "../../../img/laravel.png", 
+  },
+  {
+    title: "",
+    img: "../../../img/react-native.svg", 
+  },
+
+  {
+    title: "",
+    img: "../../../img/python.webp", 
+  },
+  {
+    title: "",
+    img: "../../../img/django.png", 
+  },
+  {
+    title: "",
+    img: "../../../img/flask.png", 
+  },
+  {
+    title: "",
+    img: "../../../img/rails.png", 
+  },
+  {
+    title: "",
+    img: "../../../img/vue.webp", 
+  },
+
+  {
+    title: "",
+    img: "../../../img/mysql.png", 
+  },
+  {
+    title: "",
+    img: "../../../img/postgres.png", 
+  },
+  {
+    img: "../../../img/jetstream.png", // Agregar Laravel
+    title: "",
+  },
+  {
+    img: "../../../img/inertiajs.png", // Agregar Laravel
+    title: "",
   },
 ];
 
 export const projects = [
   {
-    img: "../../../img/tasks-manager.webp",
-    title: "Tasks Manager",
-    link: "https://task-manager-ecru-chi.vercel.app/dashboard",
-    description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
+    img: "../../../img/tasks-manager.png",
+    title: "PRESSTAPP",
+    link: "https://presstapp.carlosma.cash/login",
+    description: `SISTEMA PARA CONTROL Y FACTURACION DE VENTAS  Y PRESTAMOS` ,
     technologies: [
+
+       
       {
-        icon: IconKeys.typeScript,
+        img: "../../../img/php.png", // Agregar Laravel
+        title: "",
+      },
+
+      {
+        img: "../../../img/laravel.png", // Agregar Laravel
+        title: "",
       },
       {
-        icon: IconKeys.nextjs,
+        img: "../../../img/tailwindcss.webp", // Agregar Laravel
+        title: "",
       },
       {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.zustand,
+        img: "../../../img/postgres.png", // Agregar PostgreSQL
+        title: "",
       },
       {
         icon: IconKeys.shadcn,
@@ -153,73 +200,73 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/ecommerce-stripe-2.webp",
-    title: "Ecommerce Stripe",
-    link: "https://ecommerce-stripe-763m.vercel.app/",
-    description: `Proyecto FullStack de un ecommerce con pasarela de pagos stripe integrada, destalles de el product etc.  `,
+    img: "../../../img/SOFTCON.png",
+    title: "SOFTCON",
+    link: "https://softcont-production.up.railway.app/accounts/login/",
+    description: `Proyecto FullStack para Registro y Control de Insumos y Herramientas`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        img: "../../../img/python.webp", // Agregar Laravel
+        title: "",
       },
       {
-        icon: IconKeys.nextjs,
+        img: "../../../img/django.webp", // Agregar PHP
+        title: "",
+      },
+
+
+      {
+        img: "../../../img/Bootstrap.png", // Agregar Django
+        title: "",
       },
       {
-        icon: IconKeys.tailwind,
+        img: "../../../img/material.png", // Agregar PostgreSQL
+        title: "",
       },
+
       {
-        icon: IconKeys.mongodb,
-      },
-      {
-        icon: IconKeys.stripe,
+        img: "../../../img/postgres.png", // Agregar PostgreSQL
+        title: "",
       },
     ],
   },
   {
-    img: "../../../img/nexanime.webp",
-    title: "NexAnime",
+    img: "../../../img/SISGAM.png",
+    title: "SISGAM",
     link: "https://nexanime.vercel.app",
-    description: `plataforma de anime para ver los animes en tendencia , más valorados , estadísticas.`,
+    description: `SISTEMA GESTOR ADMINISTRATIVO PARA DEPARTAMENTO MANTENCION - ALMACENAR E INGRSAR CARTILLAS DE TRABAJOS`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        img: "../../../img/rails.png", // Agregar PostgreSQL
+        title: "",
       },
       {
-        icon: IconKeys.nextjs,
+        img: "../../../img/Bootstrap.png", // Agregar Django
+        title: "",
+      },
+
+      {
+        img: "../../../img/postgres.png", // Agregar PostgreSQL
+        title: "",
       },
       {
-        icon: IconKeys.tailwind,
+        img: "../../../img/material.png", // Agregar PostgreSQL
+        title: "",
       },
     ],
   },
   {
     img: "../../../img/store-games.webp",
-    title: "Store games",
+    title: "NOTIWEB",
     link: "https://store-games-site.netlify.app/",
-    description: `Simulando una página de juegos , consumiendo la API de rawg api
-      donde los usuarios pueden buscar videojuegos, ver sus detalles como
-      creadores , calificaciones,tiendas donde comprar.....`,
+    description: `APLICACION WEB PARA NOTICIAS E INFORMACION`,
     technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
+      
     ],
   },
   {
     img: "../../../img/movie.webp",
-    title: "Movie Tv",
+    title: "BIBILIAPP",
     link: "https://movietvsite.netlify.app/",
     description: `simulando una página de películas , consumiendo la API de themovietv
               donde los usuarios pueden buscar películas y ver trailer.....`,
@@ -240,21 +287,39 @@ export const projects = [
   },
   {
     img: "../../../img/cyberpunk.webp",
-    title: "cyberpunk",
+    title: "E-COMMERCE",
     link: "https://preeminent-liger-266356.netlify.app/",
-    description: `este proyecto se trata de un clon de la pagína de cyberpunk , donde
-      el ususario puede ver los tailer de él juegos y también los
-      episodios de la serie....`,
+    description: `El E-Commerce de Moda es una plataforma de comercio electrónico moderna y altamente interactiva `,
     technologies: [
       {
-        icon: IconKeys.html,
+        title: "",
+        img: "../../../img/php.png", 
+      },
+
+      {
+        img: "../../../img/laravel.png", 
+        title: "",
+      },
+
+      {
+        img: "../../../img/vue.webp", 
+        title: "",
+      },
+
+      {
+        img: "../../../img/postgres.png", // Agregar Laravel
+        title: "",
+      },
+
+      {
+        img: "../../../img/material.png", // Agregar Laravel
+        title: "",
       },
       {
-        icon: IconKeys.css,
+        img: "../../../img/inertiajs.png", // Agregar Laravel
+        title: "",
       },
-      {
-        icon: IconKeys.javaScript,
-      },
+
     ],
   },
 
@@ -326,3 +391,7 @@ export const projects = [
     ],
   },
 ];
+
+
+
+
