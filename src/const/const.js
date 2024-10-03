@@ -1,5 +1,4 @@
 
-import phpLogo from './public/img/php.png';
 
 
 export const studies = [
@@ -54,7 +53,7 @@ export const IconKeys = {
   nodejs: "nodejs",
   mongodb: "mongodb",
   vite: "vite",
-  php: phpLogo,
+  php: "./public/img/php.png",
 
   // here add more icon keys
 };
