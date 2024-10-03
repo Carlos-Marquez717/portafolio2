@@ -1,5 +1,5 @@
 
-import phpLogo from '../../../img/php.png';
+import phpLogo from './public/img/php.png';
 
 
 export const studies = [
