@@ -287,7 +287,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/movie.webp",
+    img: "../../../img/biblia.png",
     title: "BIBILIAPP",
     link: "",
     description: ` La Biblia Interactiva es una aplicación web diseñada para facilitar el acceso a las Escrituras de manera intuitiva y envolvente`,
@@ -297,34 +297,34 @@ export const projects = [
         title: "",
       },
       {
-        img: "../../../img/django.png", 
+        img: "../../../img/django.webp", 
         title: "",
       },
       {
-        img: "../../../img/tailwind.webp", 
+        img: "../../../img/tailwindcss.webp", 
+        title: "",
+      },
+      {
+        img: "../../../img/postgres.png", 
         title: "",
       },
 
     ],
   },
   {
-    img: "../../../img/cyberpunk.webp",
+    img: "../../../img/notiweb.png",
     title: "NOTIWEB",
     link: "https://preeminent-liger-266356.netlify.app/",
-    description: `El E-Commerce de Moda es una plataforma de comercio electrónico moderna y altamente interactiva `,
+    description: `NOTIWEB es una aplicación de noticias moderna y dinámica, diseñada para ofrecer a los usuarios una experiencia fluida y atractiva`,
     technologies: [
       {
         title: "",
-        img: "../../../img/php.png", 
+        img: "../../../img/rails.png", 
       },
 
+  
       {
-        img: "../../../img/laravel.png", 
-        title: "",
-      },
-
-      {
-        img: "../../../img/vue.webp", 
+        img: "../../../img/react.png", 
         title: "",
       },
 
@@ -337,10 +337,7 @@ export const projects = [
         img: "../../../img/material.png", // Agregar Laravel
         title: "",
       },
-      {
-        img: "../../../img/inertiajs.png", // Agregar Laravel
-        title: "",
-      },
+  
 
     ],
   },
