@@ -1,10 +1,10 @@
 
-import phpLogo from './public/img/php.png';
+
 
 
 export const studies = [
   {
-    title: "Técnico en Informaticfa",
+    title: "Técnico en Informatica",
     corporation: "ETC Eliodoro Pineda - Barquisimeto (Venezuela) ",
     date: "09/2003 – 07/2006",
   },
@@ -256,38 +256,61 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/store-games.webp",
-    title: "NOTIWEB",
-    link: "https://store-games-site.netlify.app/",
-    description: `APLICACION WEB PARA NOTICIAS E INFORMACION`,
+    img: "../../../img/TIENDAONLINE.png",
+    title: "TIENDA ONLINE",
+    link: "https://tiendaonline.carlosma.cash/login/",
+    description: `APLICACION WEB PARA TIENDA ONLINE DE VENTA DE ZAPATOS`,
     technologies: [
-      
+      {
+        title: "",
+        img: "../../../img/php.png", 
+      },
+
+      {
+        img: "../../../img/laravel.png", 
+        title: "",
+      },
+
+      {
+        img: "../../../img/vue.webp", 
+        title: "",
+      },
+      {
+        img: "../../../img/inertiajs.png", // Agregar Laravel
+        title: "",
+      },
+      {
+        img: "../../../img/mysql.png", // Agregar Laravel
+        title: "",
+      },
+
+
     ],
   },
   {
     img: "../../../img/movie.webp",
     title: "BIBILIAPP",
-    link: "https://movietvsite.netlify.app/",
-    description: `simulando una página de películas , consumiendo la API de themovietv
-              donde los usuarios pueden buscar películas y ver trailer.....`,
+    link: "",
+    description: ` La Biblia Interactiva es una aplicación web diseñada para facilitar el acceso a las Escrituras de manera intuitiva y envolvente`,
     technologies: [
       {
-        icon: IconKeys.react,
+        img: "../../../img/vue.webp", 
+        title: "",
       },
       {
-        icon: IconKeys.css,
+        img: "../../../img/django.png", 
+        title: "",
       },
       {
-        icon: IconKeys.javaScript,
+        img: "../../../img/tailwind.webp", 
+        title: "",
       },
-      {
-        icon: IconKeys.tailwind,
-      },
+
     ],
   },
   {
     img: "../../../img/cyberpunk.webp",
-    title: "E-COMMERCE",
+    title: "NOTIWEB",
     link: "https://preeminent-liger-266356.netlify.app/",
     description: `El E-Commerce de Moda es una plataforma de comercio electrónico moderna y altamente interactiva `,
     technologies: [
@@ -323,73 +346,7 @@ export const projects = [
     ],
   },
 
-  {
-    img: "../../../img/fit-nation.webp",
-    title: "gym",
-    link: "https://fitnation.netlify.app/",
-    description: `landing page de una gym por ahora es una landing todavia está en
-              desarrollo la idea es que los usuarios puedan comprar productos de
-              el gym`,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/spotify.webp",
-    title: "Spotify-Clone",
-    link: "https://www.linkedin.com/posts/osnaider-mart%C3%ADnez_clon-de-la-p%C3%A1gina-de-spotify-echo-con-react-activity-7119712602342965248-upgL?utm_source=share&utm_medium=member_desktop",
-    description: `Clon de la página de Spotify con autenticación de usuario, reproductor de canciones, etc `,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.redux,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
-    ],
-  },
-
-  {
-    img: "../../../img/landing.webp",
-    title: "Landing Realidad Virtual",
-    link: "https://realityvirtual.netlify.app/",
-    description: `landing page de gafas de realidad virtual donde se muestra el
-              producto y como funciona`,
-    technologies: [
-      {
-        icon: IconKeys.astro,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
+ 
 ];
 
 
