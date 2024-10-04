@@ -232,7 +232,7 @@ export const projects = [
   {
     img: "../../../img/SISGAM.png",
     title: "SISGAM",
-    link: "https://nexanime.vercel.app",
+    link: "",
     description: `SISTEMA GESTOR ADMINISTRATIVO PARA DEPARTAMENTO MANTENCION - ALMACENAR E INGRSAR CARTILLAS DE TRABAJOS`,
     technologies: [
       {
