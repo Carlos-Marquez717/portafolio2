@@ -314,7 +314,7 @@ export const projects = [
   {
     img: "../../../img/notiweb.png",
     title: "NOTIWEB",
-    link: "https://preeminent-liger-266356.netlify.app/",
+    link: "",
     description: `NOTIWEB es una aplicación de noticias moderna y dinámica, diseñada para ofrecer a los usuarios una experiencia fluida y atractiva`,
     technologies: [
       {
