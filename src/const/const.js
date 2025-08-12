@@ -288,9 +288,9 @@ export const projects = [
   },
   {
     img: "../../../img/biblia.png",
-    title: "F&S",
+    title: "F&S CONTROL",
     link: "",
-    description: ` Aplicacion web para Generacion de Licencias de conduncion interna, Control de Insumos y Herramientas `,
+    description: ` Aplicacion web para Generacion de Licencias de conduncion interna, Control de Insumos y Herramientas en Faena Minera Florida `,
     technologies: [
       {
         img: "../../../img/vue.webp", 
