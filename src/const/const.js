@@ -288,9 +288,9 @@ export const projects = [
   },
   {
     img: "../../../img/biblia.png",
-    title: "BIBILIAPP",
+    title: "F&S",
     link: "",
-    description: ` La Biblia Interactiva es una aplicación web diseñada para facilitar el acceso a las Escrituras de manera intuitiva y envolvente`,
+    description: ` Aplicacion web para Generacion de Licencias de conduncion interna, Control de Insumos y Herramientas `,
     technologies: [
       {
         img: "../../../img/vue.webp", 
