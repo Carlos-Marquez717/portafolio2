@@ -61,6 +61,18 @@ export const skills = [
     img: "../../../img/python.webp", 
   },
   {
+    title: "",
+    img: "../../../img/django.png", 
+  },
+  {
+    title: "",
+    img: "../../../img/php.png", 
+  },
+  {
+    title: "",
+    img: "../../../img/laravel.png", 
+  },
+  {
     title: "Html",
     icon: IconKeys.html,
   },
@@ -101,19 +113,7 @@ export const skills = [
 
   {
     title: "",
-    img: "../../../img/php.png", 
-  },
-  {
-    title: "",
-    img: "../../../img/laravel.png", 
-  },
-  {
-    title: "",
     img: "../../../img/react-native.svg", 
-  },
-  {
-    title: "",
-    img: "../../../img/django.png", 
   },
   {
     title: "",
