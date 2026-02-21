@@ -233,7 +233,9 @@ export const projects = [
     img: "../../../img/SISGAM.png",
     title: "SISGAM",
     link: "",
-    description: `Sistema gestor administrativo para el departamento de mantención.Permite almacenar e ingresar cartillas de trabajo y centralizar procesos operacionales.
+    description: `Sistema gestor administrativo para el departamento de mantención.Permite almacenar e ingresar cartillas de trabajo 
+                  y centralizar procesos operacionales.
+                  
                  ✔ Digitalización 100% de procesos manuales
                  ✔ Reportes centralizados
                  ✔ Mejora operativa en planta minera`,
