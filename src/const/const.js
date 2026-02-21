@@ -32,7 +32,7 @@ export const studies = [
 ];
 
 export const IconKeys = {
-  
+  python: "python",
   html: "html",
   css: "css",
   javaScript: "javaScript",
