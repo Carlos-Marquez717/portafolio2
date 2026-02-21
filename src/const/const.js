@@ -298,7 +298,11 @@ export const projects = [
     img: "../../../img/biblia.png",
     title: "F&S CONTROL",
     link: "",
-    description: ` Aplicacion web para Generacion de Licencias de conduncion interna, Control de Insumos y Herramientas en Faena Minera Florida `,
+    description: ` Plataforma Interna para Control de Insumos, Herramientas y Licencias en Faena.
+              
+              ✓ Emisión y gestión de licencias internas con validación QR
+              ✓ Control de stock y trazabilidad de entregas/retiros
+              ✓ Reportes operacionales para seguimiento y auditoría `,
     technologies: [
       {
         img: "../../../img/vue.webp", 
