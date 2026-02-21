@@ -84,6 +84,14 @@ export const skills = [
     title: "JavaScript",
     icon: IconKeys.javaScript,
   },
+    {
+    title: "",
+    img: "../../../img/vue.webp", 
+  },
+  {
+    title: "React Js",
+    icon: IconKeys.react,
+  },
   {
     title: "Astro",
     icon: IconKeys.astro,
@@ -91,10 +99,6 @@ export const skills = [
   {
     title: "Tailwindcss",
     icon: IconKeys.tailwind,
-  },
-  {
-    title: "React Js",
-    icon: IconKeys.react,
   },
 
   {
@@ -117,15 +121,7 @@ export const skills = [
   },
   {
     title: "",
-    img: "../../../img/flask.png", 
-  },
-  {
-    title: "",
     img: "../../../img/rails.png", 
-  },
-  {
-    title: "",
-    img: "../../../img/vue.webp", 
   },
 
   {
