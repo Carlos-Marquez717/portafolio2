@@ -173,6 +173,7 @@ export const projects = [
     title: "PRESSTAPP",
     link: "https://presstapp.carlosma.cash/login",
     description: `Sistema Contable Para Gestión De Cobros y Pagos.
+    
     ✓ Automatización de generación de reportes financieros en PDF
     ✓ Optimización del backend para mejorar rendimiento
     ✓ Reducción del 30% en tiempos de procesamiento de pagosS` ,
