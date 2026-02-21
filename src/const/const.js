@@ -126,7 +126,7 @@ export const skills = [
   },
   {
     title: "",
-    img: "../../../img/aws.png", 
+    img: "../../../img/aws.webp", 
   },
   {
     title: "",
