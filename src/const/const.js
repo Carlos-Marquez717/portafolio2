@@ -32,6 +32,7 @@ export const studies = [
 ];
 
 export const IconKeys = {
+  
   html: "html",
   css: "css",
   javaScript: "javaScript",
@@ -55,6 +56,10 @@ export const IconKeys = {
 };
 
 export const skills = [
+  {
+    title: "",
+    img: "../../../img/python.webp", 
+  },
   {
     title: "Html",
     icon: IconKeys.html,
@@ -105,11 +110,6 @@ export const skills = [
   {
     title: "",
     img: "../../../img/react-native.svg", 
-  },
-
-  {
-    title: "",
-    img: "../../../img/python.webp", 
   },
   {
     title: "",
