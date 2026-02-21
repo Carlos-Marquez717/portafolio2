@@ -120,7 +120,14 @@ export const skills = [
     title: "Github",
     icon: IconKeys.github,
   },
-
+  {
+    title: "",
+    img: "../../../img/docker.png", 
+  },
+  {
+    title: "",
+    img: "../../../img/aws.png", 
+  },
   {
     title: "",
     img: "../../../img/rails.png", 
