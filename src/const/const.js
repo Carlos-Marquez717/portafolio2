@@ -233,7 +233,7 @@ export const projects = [
     img: "../../../img/SISGAM.png",
     title: "SISGAM",
     link: "",
-    description: `Sistema Gestor Administrativo para el Departamento de Mantención.
+    description: `Sistema Administrativo para el Departamento de Mantención.
                   
                  ✔ Digitalización 100% de procesos manuales
                  ✔ Reportes centralizados
