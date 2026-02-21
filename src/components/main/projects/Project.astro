@@ -111,16 +111,17 @@ const { technologies, title, img, description, link } = Astro.props;
     font-size: 20px;
     padding: 5px 10px;
   }
-  .description-project {
-    padding: 0 10px;
-    color: #f6f6f990;
-    font-size: 17px;
-    font-weight: 400;
-    display: -webkit-box;
-    -webkit-line-clamp: 20;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
+.description-project{
+  padding: 0 10px;
+  color: #f6f6f990;
+  font-size: 16px;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;  /* mismo para todos */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: pre-line;   /* para que respete saltos */
+}
   .description-project::first-letter {
     text-transform: capitalize;
   }
