@@ -38,7 +38,6 @@ export const IconKeys = {
   react: "react",
   astro: "astro",
   materialUi: "materialUi",
-  nextjs: "nextjs",
   redux: "redux",
   styled: "styled",
   tailwind: "tailwind",
@@ -50,9 +49,6 @@ export const IconKeys = {
   github: "github",
   stripe: "stripe",
   shadcn: "shadcn",
-  nodejs: "nodejs",
-  mongodb: "mongodb",
-  vite: "vite",
   php: "./public/img/php.png",
 
   // here add more icon keys
@@ -83,10 +79,7 @@ export const skills = [
     title: "React Js",
     icon: IconKeys.react,
   },
-  {
-    title: "Next Js",
-    icon: IconKeys.nextjs,
-  },
+
   {
     title: "Git",
     icon: IconKeys.git,
@@ -101,20 +94,6 @@ export const skills = [
     icon: IconKeys.materialUi,
   },
 
-  {
-    title: "Node Js",
-    icon: IconKeys.nodejs,
-  },
-
-  {
-    title: "Vite",
-    icon: IconKeys.vite,
-  },
-
-  {
-    title: "Mongo Db",
-    icon: IconKeys.mongodb,
-  },
   {
     title: "",
     img: "../../../img/php.png", 
