@@ -100,6 +100,16 @@ export const skills = [
     title: "Tailwindcss",
     icon: IconKeys.tailwind,
   },
+  
+  {
+    title: "",
+    img: "../../../img/react-native.svg", 
+  },
+
+  {
+    title: "Material UI",
+    icon: IconKeys.materialUi,
+  },
 
   {
     title: "Git",
@@ -110,15 +120,7 @@ export const skills = [
     title: "Github",
     icon: IconKeys.github,
   },
-  {
-    title: "Material UI",
-    icon: IconKeys.materialUi,
-  },
 
-  {
-    title: "",
-    img: "../../../img/react-native.svg", 
-  },
   {
     title: "",
     img: "../../../img/rails.png", 
