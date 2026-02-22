@@ -190,7 +190,15 @@ export const projects = [
     img: "../../../img/SOFTCON.png",
     title: "SOFTCON",
     link: "https://softcont-production.up.railway.app/accounts/login/",
-    description: `Proyecto FullStack para Registro y Control de Insumos y Herramientas`,
+    description: `Sistema Para Registro y Control de Insumos y Herramientas Bodega Mantencion
+    
+       ✔ Digitalización de procesos operacionales reduciendo uso de documentación manual.
+       ✔ Implementación de generación automática de PDFs para reportes y registros internos.
+       ✔ Integración de códigos QR para identificación rápida de registros y trazabilidad.
+       ✔ Diseño de interfaz optimizada para uso en ambientes industriales.
+       ✔ Sistema escalable construido bajo arquitectura MVC usando Django.
+       ✔ Mejora en tiempos de búsqueda y control de inventario gracias a filtros dinámicos.
+      ✔ Adaptación del sistema a flujo real de trabajo minero (faena y bodega).`,
     technologies: [
       {
         img: "../../../img/python.webp", // Agregar Laravel
