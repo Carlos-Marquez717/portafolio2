@@ -195,7 +195,6 @@ export const projects = [
        ✔ Digitalización de procesos operacionales reduciendo uso de documentación manual.
        ✔ Implementación de generación automática de PDFs para reportes y registros internos.
        ✔ Integración de códigos QR para identificación rápida de registros y trazabilidad.
-       ✔ Sistema escalable construido bajo arquitectura MVC usando Django.
        ✔ Mejora en tiempos de búsqueda y control de inventario gracias a filtros dinámicos.
       ✔ Adaptación del sistema a flujo real de trabajo minero (faena y bodega).`,
     technologies: [
