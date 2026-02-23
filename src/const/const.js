@@ -254,7 +254,13 @@ export const projects = [
     img: "../../../img/TIENDAONLINE.png",
     title: "TIENDA ONLINE",
     link: "https://tiendaonline.carlosma.cash/login/",
-    description: `APLICACION WEB PARA TIENDA ONLINE DE VENTA DE ZAPATOS`,
+    description: `Tienda Online E-commerce
+                   Desarrollo de tienda online para cliente particular, 
+                   enfocada en ventas digitales y automatización del proceso de compra. 
+                   Implementación de catálogo de productos, carrito de compras, 
+                   panel administrativo e integración de pasarela de pago Webpay para transacciones seguras. 
+                   Sistema responsive orientado a rendimiento, usabilidad y escalabilidad.
+                 `,
     technologies: [
       {
         title: "",
