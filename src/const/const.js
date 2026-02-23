@@ -162,8 +162,6 @@ export const projects = [
     ✓ Optimización del backend para mejorar rendimiento
     ✓ Reducción del 30% en tiempos de procesamiento de pagosS` ,
     technologies: [
-
-       
       {
         img: "../../../img/php.png", // Agregar Laravel
         title: "",
