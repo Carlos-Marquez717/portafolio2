@@ -255,7 +255,7 @@ export const projects = [
     title: "TIENDA ONLINE",
     link: "https://tiendaonline.carlosma.cash/login/",
     description: `Tienda Online E-commerce
-                   Desarrollo de tienda online para cliente particular, 
+                   Desarrollo de tienda online para cliente particular. 
                    enfocada en ventas digitales y automatización del proceso de compra. 
                    Implementación de catálogo de productos, carrito de compras, 
                    panel administrativo e integración de pasarela de pago Webpay para transacciones seguras. 
