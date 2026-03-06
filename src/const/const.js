@@ -65,8 +65,8 @@ export const skills = [
     img: "../../../img/django.png", 
   },
   {
-    title: "C#",
-    img: "../../../img/c#.webp", 
+    title: "",
+    img: "../../../img/c#.png", 
   },
   {
     title: "",
