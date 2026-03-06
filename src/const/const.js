@@ -69,6 +69,10 @@ export const skills = [
   },
   {
     title: "",
+    img: "../../../img/blazor.png", 
+  },
+  {
+    title: "",
     img: "../../../img/php.png", 
   },
   {
