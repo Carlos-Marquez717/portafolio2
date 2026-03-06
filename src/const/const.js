@@ -143,23 +143,16 @@ export const skills = [
     title: "",
     img: "../../../img/rails.png", 
   },
-
   {
     title: "",
-    img: "../../../img/mysql.png", 
+    img: "../../../img/sqlserver.png", 
   },
+
   {
     title: "",
     img: "../../../img/postgres.png", 
   },
-  {
-    img: "../../../img/jetstream.png", // Agregar Laravel
-    title: "",
-  },
-  {
-    img: "../../../img/inertiajs.png", // Agregar Laravel
-    title: "",
-  },
+
 ];
 
 export const projects = [
