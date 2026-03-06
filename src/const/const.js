@@ -69,6 +69,10 @@ export const skills = [
   },
   {
     title: "",
+    img: "../../../img/asp.netcore.png", 
+  },
+  {
+    title: "",
     img: "../../../img/blazor.png", 
   },
   {
