@@ -214,18 +214,18 @@ export const projects = [
     img: "../../../img/SISGAM.png",
     title: "SISGAM",
     link: "",
-    description: `Sistema Administrativo para el Departamento de Mantención.
+    description: `Sistema Administrativo para el Departamento de Mantención. 
                   
                  ✔ Digitalización 100% de procesos manuales
                  ✔ Reportes centralizados
                  ✔ Mejora operativa en planta minera`,
     technologies: [
       {
-        img: "../../../img/rails.png", // Agregar PostgreSQL
+        img: "../../../img/asp.netcore.png", // Agregar PostgreSQL
         title: "",
       },
       {
-        img: "../../../img/Bootstrap.png", // Agregar Django
+        img: "../../../img/react.png", // Agregar Django
         title: "",
       },
 
