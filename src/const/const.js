@@ -109,11 +109,6 @@ export const skills = [
     icon: IconKeys.tailwind,
   },
   
-  {
-    title: "",
-    img: "../../../img/react-native.svg", 
-  },
-
 
   {
     title: "Git",
