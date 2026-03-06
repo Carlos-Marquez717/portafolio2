@@ -1,6 +1,5 @@
 
 
-
 export const studies = [
   {
     title: "Técnico en Informatica",
