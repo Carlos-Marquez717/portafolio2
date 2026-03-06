@@ -77,7 +77,7 @@ export const skills = [
     img: "../../../img/php.png", 
   },
   {
-    title: "",
+    title: "Laravel",
     img: "../../../img/laravel.png", 
   },
   {
