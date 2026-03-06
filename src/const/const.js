@@ -65,7 +65,7 @@ export const skills = [
   },
   {
     title: "",
-    img: "../../../img/c#.png", 
+    img: "../../../img/csharp.png", 
   },
   {
     title: "",
