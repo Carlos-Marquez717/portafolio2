@@ -134,7 +134,7 @@ export const skills = [
   },
 
   {
-    title: "",
+    title: "Postgre",
     img: "../../../img/postgres.png", 
   },
 
