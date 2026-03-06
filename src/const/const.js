@@ -56,11 +56,11 @@ export const IconKeys = {
 
 export const skills = [
   {
-    title: "",
+    title: "Python",
     img: "../../../img/python.webp", 
   },
   {
-    title: "",
+    title: "Django",
     img: "../../../img/django.png", 
   },
   {
