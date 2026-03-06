@@ -117,10 +117,6 @@ export const skills = [
     img: "../../../img/react-native.svg", 
   },
 
-  {
-    title: "Material UI",
-    icon: IconKeys.materialUi,
-  },
 
   {
     title: "Git",
@@ -139,10 +135,7 @@ export const skills = [
     title: "",
     img: "../../../img/aws.webp", 
   },
-  {
-    title: "",
-    img: "../../../img/rails.png", 
-  },
+
   {
     title: "",
     img: "../../../img/sqlserver.png", 
