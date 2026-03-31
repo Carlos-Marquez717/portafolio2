@@ -275,13 +275,21 @@ export const projects = [
     img: "../../../img/TIENDAONLINE.png",
     title: "TIENDA ONLINE",
     link: "https://tiendaonline.carlosma.cash/login/",
-    description: `Tienda Online E-commerce
-                   Desarrollo de tienda online para cliente particular. 
-                   enfocada en ventas digitales y automatización del proceso de compra. 
-                   Implementación de catálogo de productos, carrito de compras, 
-                   panel administrativo e integración de pasarela de pago Webpay para transacciones seguras. 
-                   Sistema responsive orientado a rendimiento, usabilidad y escalabilidad.
-                 `,
+    description: `Plataforma e-commerce para gestión de ventas digitales.
+
+    Problema:
+    Necesidad de sistema de ventas online con pagos seguros y administración.
+
+    Solución:
+    Desarrollo de tienda online con Laravel + Vue para automatizar proceso de compra.
+
+    Arquitectura:
+    Cliente → Vue.js + Inertia → Laravel (Backend) → MySQL → Integración Webpay
+
+    Impacto:
+    ✓ Automatización de ventas
+    ✓ Integración de pagos seguros
+    ✓ Mejora en experiencia de usuario`,
     technologies: [
       {
         title: "",
