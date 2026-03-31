@@ -321,11 +321,21 @@ export const projects = [
     img: "../../../img/biblia.png",
     title: "F&S CONTROL",
     link: "",
-    description: ` Plataforma Interna para Control de Insumos, Herramientas y Licencias en Faena.
-              
-              ✓ Emisión y gestión de licencias internas con validación QR
-              ✓ Control de stock y trazabilidad de entregas/retiros
-              ✓ Reportes operacionales para seguimiento y auditoría `,
+    description: `Plataforma interna para control de insumos, herramientas y licencias.
+
+    Problema:
+    Falta de control y trazabilidad en operaciones de faena.
+
+    Solución:
+    Sistema backend con Django para gestión y auditoría operativa.
+
+    Arquitectura:
+    Usuario → Vue.js → Django Backend → PostgreSQL → Validación QR
+
+    Impacto:
+     ✓ Control de stock y trazabilidad
+     ✓ Gestión de licencias internas
+     ✓ Mejora en auditoría de procesos`,
     technologies: [
       {
         img: "../../../img/vue.webp", 
