@@ -190,13 +190,22 @@ export const projects = [
     img: "../../../img/SOFTCON.png",
     title: "SOFTCON",
     link: "https://softcont-production.up.railway.app/accounts/login/",
-    description: `Sistema Para Registro y Control de Insumos y Herramientas Bodega Mantencion
+    description: `Sistema para registro y control de insumos y herramientas en bodega de mantención.
+
+    Problema:
+    Procesos manuales con baja trazabilidad y control de inventario.
     
-       ✔ Digitalización de procesos operacionales reduciendo uso de documentación manual.
-       ✔ Implementación de generación automática de PDFs para reportes y registros internos.
-       ✔ Integración de códigos QR para identificación rápida de registros y trazabilidad.
-       ✔ Mejora en tiempos de búsqueda y control de inventario gracias a filtros dinámicos.
-      ✔ Adaptación del sistema a flujo real de trabajo minero (faena y bodega).`,
+    Solución:
+    Aplicación web con Django para gestión operativa y automatización de registros.
+
+    Arquitectura:
+    Usuario → Django (Backend + lógica) → PostgreSQL → Módulos de QR y generación de PDFs
+
+    Impacto:
+     ✓ Digitalización de procesos
+     ✓ Mejora en control de inventario
+     ✓ Trazabilidad mediante QR
+     ✓ Optimización de tiempos de búsqueda`,
     technologies: [
       {
         img: "../../../img/python.webp", // Agregar Laravel
