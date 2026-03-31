@@ -236,11 +236,21 @@ export const projects = [
     img: "../../../img/SISGAM.png",
     title: "SISGAM",
     link: "",
-    description: `Sistema Administrativo para el Departamento de Mantención. 
-                  
-                 ✔ Digitalización 100% de procesos manuales
-                 ✔ Reportes centralizados
-                 ✔ Mejora operativa en planta minera`,
+    description: `Sistema administrativo para el departamento de mantención.
+
+    Problema:
+    Procesos manuales dispersos y falta de centralización de información.
+
+    Solución:
+    Sistema backend con ASP.NET Core para digitalizar y centralizar operaciones.
+
+    Arquitectura:
+    Usuario → React (Frontend) → ASP.NET Core (API) → PostgreSQL → Reportes
+
+    Impacto:
+    ✓ Digitalización 100% de procesos
+    ✓ Reportes centralizados
+    ✓ Mejora operativa en planta minera`,
     technologies: [
       {
         img: "../../../img/asp.netcore.png", // Agregar PostgreSQL
