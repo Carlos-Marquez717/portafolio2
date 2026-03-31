@@ -148,11 +148,21 @@ export const projects = [
     img: "../../../img/tasks-manager.png",
     title: "PRESSTAPP",
     link: "https://presstapp.carlosma.cash/login",
-    description: `Sistema Contable Para Gestión De Cobros y Pagos.
-    
-    ✓ Automatización de generación de reportes financieros en PDF
-    ✓ Optimización del backend para mejorar rendimiento
-    ✓ Reducción del 30% en tiempos de procesamiento de pagosS` ,
+    description: `Sistema contable para gestión de cobros y pagos.
+
+    Problema:
+    Gestión manual de pagos y generación de reportes financieros poco eficiente.
+
+    Solución:
+    Desarrollo de sistema backend con Laravel para automatizar procesos y centralizar información financiera.
+
+    Arquitectura:
+    Usuario → Laravel (Backend/API + lógica de negocio) → PostgreSQL → Generación de reportes PDF
+
+    Impacto:
+     ✓ Automatización de reportes financieros
+     ✓ Mejora en rendimiento del sistema
+     ✓ Reducción del 30% en tiempos de procesamiento`,
     technologies: [
       {
         img: "../../../img/php.png", // Agregar Laravel
