@@ -360,7 +360,21 @@ export const projects = [
     img: "../../../img/notiweb.png",
     title: "NOTIWEB",
     link: "",
-    description: `NOTIWEB es una aplicación de noticias moderna y dinámica, diseñada para ofrecer a los usuarios una experiencia fluida y atractiva`,
+   description: `Aplicación web de noticias moderna y dinámica.
+
+   Problema:
+   Necesidad de plataforma escalable para publicación de contenido.
+
+   Solución:
+   Aplicación desarrollada con Ruby on Rails y React.
+
+   Arquitectura:
+   Usuario → React → Ruby on Rails → PostgreSQL
+
+   Impacto:
+   ✓ Plataforma dinámica de contenido
+   ✓ Arquitectura desacoplada
+   ✓ Escalabilidad en publicación de noticias`,
     technologies: [
       {
         title: "",
