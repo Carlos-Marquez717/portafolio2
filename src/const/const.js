@@ -189,7 +189,7 @@ export const projects = [
   {
     img: "../../../img/SOFTCON.png",
     title: "SOFTCON",
-    link: "https://softcont-production.up.railway.app/accounts/login/",
+    link: "https://github.com/Carlos-Marquez717/SOFTCONT",
     description: `Sistema para registro y control de insumos y herramientas en bodega de mantención.
 
     Problema:
