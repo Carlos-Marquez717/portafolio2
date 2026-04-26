@@ -147,7 +147,7 @@ export const projects = [
   {
     img: "../../../img/tasks-manager.png",
     title: "PRESSTAPP",
-    link: "https://presstapp.carlosma.cash/login",
+    link: "https://github.com/Carlos-Marquez717/prestamos",
     description: `Sistema contable para gestión de cobros y pagos.
 
     Problema:
