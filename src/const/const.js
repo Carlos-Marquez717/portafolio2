@@ -400,6 +400,47 @@ export const projects = [
 
     ],
   },
+  {
+  img: "../../../img/supportdesk-lite-api.png",
+  title: "SUPPORTDESK LITE API",
+  link: "https://github.com/Carlos-Marquez717/supportdesk-lite",
+  description: `API backend para gestion de tickets de soporte con SLA, asignaciones, comentarios, auditoria y dashboard operacional.
+
+  Problema:
+  Los equipos de soporte necesitan centralizar solicitudes, controlar tiempos de respuesta y mantener trazabilidad de cada accion realizada sobre un ticket.
+
+  Solución:
+  Desarrollo de una API REST con Spring Boot para gestionar tickets, agentes, comentarios, estados, asignaciones, auditoria y metricas operacionales.
+
+  Arquitectura:
+  Cliente / Swagger UI → Spring Boot API → JPA / Hibernate → PostgreSQL / SQLite → Dashboard y eventos de auditoria
+
+  Impacto:
+   ✓ Gestion centralizada de tickets
+   ✓ Calculo automatico de SLA por prioridad
+   ✓ Trazabilidad mediante eventos de auditoria
+   ✓ Endpoints documentados con Swagger/OpenAPI
+   ✓ Perfil local portable con SQLite para demo`,
+  technologies: [
+    {
+      img: "../../../img/java.png",
+      title: "",
+    },
+    {
+      img: "../../../img/springboot.png",
+      title: "",
+    },
+    {
+      img: "../../../img/postgres.png",
+      title: "",
+    },
+    {
+      img: "../../../img/docker.png",
+      title: "",
+    },
+  ],
+},
+
 
  
 ];
