@@ -13,12 +13,11 @@ import Footer from "../components/footer/Footer.astro";
     <meta name="generator" content={Astro.generator} />
     <meta
       name="description"
-      content=""
+      content="Portafolio de Carlos Marquez, Backend Developer especializado en APIs REST, automatización y sistemas empresariales."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://osnaidermartinez.vercel.app/" />
-    <meta property="og:site_name" content="Osnaider Martinez" />
-    <meta property="og:title" content="Osnaider Martinez Portafolio" />
+    <meta property="og:site_name" content="Carlos Marquez" />
+    <meta property="og:title" content="Carlos Marquez | Backend Developer" />
     <meta
       property="og:image"
       content="https://osnaidermartinez.vercel.app/img/preview-page.webp"
@@ -27,11 +26,27 @@ import Footer from "../components/footer/Footer.astro";
     <script
       src="https://kit.fontawesome.com/2898a0ac51.js"
       crossorigin="anonymous"></script>
-    <title>PORTAFOLIO | CARLOS MARQUEZ</title>
+    <title>Carlos Marquez | Backend Developer</title>
   </head>
   <body>
     <Header />
     <Main />
     <Footer />
+    <script>
+      const revealItems = document.querySelectorAll(".reveal");
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.16 }
+      );
+
+      revealItems.forEach((item) => revealObserver.observe(item));
+    </script>
   </body>
 </html>

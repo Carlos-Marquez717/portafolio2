@@ -49,12 +49,44 @@ export const IconKeys = {
   github: "github",
   stripe: "stripe",
   shadcn: "shadcn",
+  angular: "angular",
   php: "./public/img/php.png",
 
   // here add more icon keys
 };
 
 export const skills = [
+  {
+    title: "Angular",
+    icon: IconKeys.angular,
+  },
+  {
+    title: "TypeScript",
+    icon: IconKeys.typeScript,
+  },
+  {
+    title: "ASP.NET Core",
+    img: "../../../img/asp.netcore.png",
+  },
+  {
+    title: "C#",
+    img: "../../../img/csharp.png",
+  },
+  {
+    title: "APIs REST",
+  },
+  {
+    title: "SQL Server",
+    img: "../../../img/sqlserver.png",
+  },
+  {
+    title: "PostgreSQL",
+    img: "../../../img/postgres.png",
+  },
+  {
+    title: "JavaScript",
+    icon: IconKeys.javaScript,
+  },
   {
     title: "Python",
     img: "../../../img/python.webp", 
@@ -64,48 +96,12 @@ export const skills = [
     img: "../../../img/django.png", 
   },
   {
-    title: "",
-    img: "../../../img/csharp.png", 
-  },
-  {
-    title: "",
-    img: "../../../img/asp.netcore.png", 
-  },
-  {
-    title: "",
-    img: "../../../img/blazor.png", 
-  },
-  {
-    title: "",
+    title: "PHP",
     img: "../../../img/php.png", 
   },
   {
     title: "Laravel",
     img: "../../../img/laravel.png", 
-  },
-  {
-    title: "Html",
-    icon: IconKeys.html,
-  },
-  {
-    title: "Css",
-    icon: IconKeys.css,
-  },
-  {
-    title: "JavaScript",
-    icon: IconKeys.javaScript,
-  },
-    {
-    title: "",
-    img: "../../../img/vue.webp", 
-  },
-  {
-    title: "React Js",
-    icon: IconKeys.react,
-  },
-  {
-    title: "Astro",
-    icon: IconKeys.astro,
   },
   {
     title: "Tailwindcss",
@@ -117,30 +113,10 @@ export const skills = [
     title: "Git",
     icon: IconKeys.git,
   },
-
   {
-    title: "Github",
-    icon: IconKeys.github,
-  },
-  {
-    title: "",
+    title: "Docker",
     img: "../../../img/docker.png", 
   },
-  {
-    title: "",
-    img: "../../../img/aws.webp", 
-  },
-
-  {
-    title: "",
-    img: "../../../img/sqlserver.png", 
-  },
-
-  {
-    title: "Postgre",
-    img: "../../../img/postgres.png", 
-  },
-
 ];
 
 export const projects = [

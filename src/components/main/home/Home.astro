@@ -7,11 +7,13 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
 ---
 
 <div class="content-presentation" id="inicio">
+  <div class="tech-grid"></div>
   <div class="linear-gradient-2"></div>
   <div class="linear-gradient-1"></div>
 
   <div class="container-presentation">
-    <div class="container-text">
+    <div class="container-text reveal">
+      <span class="eyebrow">Disponible para proyectos backend</span>
       <h1 class="text-name">CARLOS MARQUEZ</h1>
 
       <div class="container-profession" aria-label="Título profesional">
@@ -42,10 +44,6 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
         trazabilidad y flujo de datos entre plataformas.
       </p>
 
-      <p class="p-presentation">
-    
-      </p>
-
       <div class="container-curriculum">
         <a
           href="https://wa.me/56944691835"
@@ -64,6 +62,12 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
         >
           Ver Currículum
         </a>
+      </div>
+
+      <div class="hero-stats" aria-label="Resumen profesional">
+        <span><strong>+7</strong> proyectos</span>
+        <span><strong>REST</strong> APIs</span>
+        <span><strong>SQL</strong> datos</span>
       </div>
 
       <div class="container-social">
@@ -93,7 +97,7 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
       </div>
     </div>
 
-    <div class="container-photo-profile">
+    <div class="container-photo-profile reveal">
       <div class="photo-perfil">
         <picture>
           <Image
@@ -138,8 +142,30 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
   .content-presentation {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: calc(100vh - 76px);
     overflow: hidden;
+    background: #06070b;
+  }
+
+  .tech-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+    background-size: 54px 54px;
+    mask-image: radial-gradient(circle at 50% 35%, #000 0%, transparent 70%);
+    animation: gridMove 16s linear infinite;
+    pointer-events: none;
+  }
+
+  @keyframes gridMove {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(54px);
+    }
   }
 
   .linear-gradient-1 {
@@ -149,7 +175,7 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
     height: 100%;
     background: radial-gradient(
       circle at left center,
-      rgba(106, 4, 223, 0.42),
+      rgba(1, 190, 150, 0.22),
       transparent 65%
     );
     z-index: 0;
@@ -163,9 +189,9 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
     height: 100%;
     background: radial-gradient(
       circle at right center,
-      rgba(106, 4, 223, 0.42),
-      #000 55%,
-      #000 100%
+      rgba(123, 20, 241, 0.34),
+      transparent 55%,
+      #06070b 100%
     );
     z-index: 0;
     pointer-events: none;
@@ -180,7 +206,7 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
     gap: 40px;
     width: min(90%, 1355px);
     margin: 0 auto;
-    padding: 80px 0;
+    padding: 88px 0;
   }
 
   .container-text {
@@ -188,9 +214,21 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
     color: #f6f6f9;
   }
 
+  .eyebrow {
+    display: inline-flex;
+    margin-bottom: 18px;
+    padding: 8px 12px;
+    border: 1px solid rgba(1, 190, 150, 0.28);
+    border-radius: 999px;
+    color: #01be96;
+    background: rgba(1, 190, 150, 0.08);
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
   .text-name {
     margin: 0 0 18px;
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(2.15rem, 5vw, 4.6rem);
     color: #01be96;
     font-weight: 800;
     letter-spacing: 1px;
@@ -211,7 +249,7 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
 
   .p-profession {
     display: inline-block;
-    font-size: clamp(2rem, 3.8vw, 3.3rem);
+    font-size: clamp(1.8rem, 4vw, 3.7rem);
     font-weight: 800;
     line-height: 1.1;
     letter-spacing: 2px;
@@ -271,6 +309,7 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
     min-width: 180px;
     padding: 14px 28px;
     border: 1px solid #01be96;
+    border-radius: 999px;
     font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
@@ -280,14 +319,34 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
   }
 
   .a-action {
-    background-color: rgba(106, 4, 223, 0.45);
+    background: linear-gradient(135deg, #01be96, #7b14f1);
+    border-color: transparent;
+    box-shadow: 0 12px 32px rgba(1, 190, 150, 0.2);
   }
 
   .a-action:hover,
   .a-curriculum:hover {
     transform: translateY(-2px);
-    background-color: rgba(106, 4, 223, 0.55);
-    box-shadow: 0 8px 24px rgba(106, 4, 223, 0.2);
+    box-shadow: 0 16px 38px rgba(1, 190, 150, 0.18);
+  }
+
+  .hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 26px;
+  }
+
+  .hero-stats span {
+    padding: 10px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.055);
+    color: rgba(246, 246, 249, 0.78);
+  }
+
+  .hero-stats strong {
+    color: #01be96;
   }
 
   .container-social {
@@ -345,7 +404,21 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.12);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    box-shadow:
+      0 0 0 10px rgba(1, 190, 150, 0.04),
+      0 0 55px rgba(1, 190, 150, 0.22),
+      0 18px 50px rgba(0, 0, 0, 0.45);
+    animation: floatProfile 5s ease-in-out infinite;
+  }
+
+  @keyframes floatProfile {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-14px);
+    }
   }
 
   .photo-perfil :global(img) {
@@ -432,11 +505,4 @@ const titleLine2 = "APIs • Automation • Enterprise Systems".split("");
       gap: 0;
     }
   }
-.container-profession {
-  line-height: 1.1;
-}
-
-.p-profession {
-  font-size: 26px;
-}
 </style>
